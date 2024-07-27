@@ -42,7 +42,7 @@ class Config:
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
  #   AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API",default=None)
-    DB_URI = config("DB_URI", default="mongodb+srv://ghost:ghost@cluster0.nvpyoaf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URI = config("DB_URI", default="mongodb+srv://knight_rider:GODGURU12345@knight.jm59gu9.mongodb.net/?retryWrites=true&w=majority")
     DB_NAME = config("DB_NAME", default="Paradox")
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
@@ -70,7 +70,7 @@ class Development:
     DEV_USERS = [6810396528]
     SUDO_USERS = [6810396528]
     WHITELIST_USERS = []
-    DB_URI = "mongodb+srv://ghost:ghost@cluster0.nvpyoaf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Your mongo DB URI
+    DB_URI = "mongodb+srv://knight_rider:GODGURU12345@knight.jm59gu9.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
     DB_NAME = "Paradox"  # Your DB name
     NO_LOAD = []
     GENIUS_API_TOKEN = ""
